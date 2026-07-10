@@ -3,6 +3,8 @@ wraith: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
   CMakeFiles/wraith.dir/src/main.cpp.o \
+  CMakeFiles/wraith.dir/src/Application.cpp.o \
+  CMakeFiles/wraith.dir/src/Window.cpp.o \
   lib/glfw-3.4/src/libglfw3.a \
   lib/glad/libglad.a \
   /usr/lib/librt.a \
@@ -46,6 +48,10 @@ wraith: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
 
 CMakeFiles/wraith.dir/src/main.cpp.o:
+
+CMakeFiles/wraith.dir/src/Application.cpp.o:
+
+CMakeFiles/wraith.dir/src/Window.cpp.o:
 
 lib/glfw-3.4/src/libglfw3.a:
 

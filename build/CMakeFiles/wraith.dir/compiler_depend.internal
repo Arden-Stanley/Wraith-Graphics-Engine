@@ -6,8 +6,7 @@ CMakeFiles/wraith.dir/src/main.cpp.o
  /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/KHR/khrplatform.h
  /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/glad/glad.h
  /home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/include/GLFW/glfw3.h
- /usr/include/GL/gl.h
- /usr/include/GL/glext.h
+ /home/arden/Projects/Wraith-Graphics-Engine/src/Window.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -226,4 +225,29 @@ CMakeFiles/wraith.dir/src/main.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h
+
+wraith
+ /usr/lib/Scrt1.o
+ /usr/lib/crti.o
+ /usr/lib/crtn.o
+ /usr/lib/libatomic.so
+ /usr/lib/libatomic_asneeded.so
+ /usr/lib/libc.so
+ /usr/lib/libdl.a
+ /usr/lib/libgcc_s.so
+ /usr/lib/libgcc_s.so.1
+ /usr/lib/libm.so
+ /usr/lib/libstdc++.so
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a
+ /usr/lib/ld-linux-x86-64.so.2
+ /usr/lib/libc.so.6
+ /usr/lib/libc_nonshared.a
+ /usr/lib/libm.so.6
+ /usr/lib/libmvec.so.1
+ /usr/lib/librt.a
+ /home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles/wraith.dir/src/main.cpp.o
+ /home/arden/Projects/Wraith-Graphics-Engine/build/lib/glad/libglad.a
+ /home/arden/Projects/Wraith-Graphics-Engine/build/lib/glfw-3.4/src/libglfw3.a
 

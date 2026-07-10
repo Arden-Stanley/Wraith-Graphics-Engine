@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/arden/Projects/Wraith-Graphics-Engine/src/Application.cpp" "CMakeFiles/wraith.dir/src/Application.cpp.o" "gcc" "CMakeFiles/wraith.dir/src/Application.cpp.o.d"
+  "/home/arden/Projects/Wraith-Graphics-Engine/src/Window.cpp" "CMakeFiles/wraith.dir/src/Window.cpp.o" "gcc" "CMakeFiles/wraith.dir/src/Window.cpp.o.d"
   "/home/arden/Projects/Wraith-Graphics-Engine/src/main.cpp" "CMakeFiles/wraith.dir/src/main.cpp.o" "gcc" "CMakeFiles/wraith.dir/src/main.cpp.o.d"
   "" "wraith" "gcc" "CMakeFiles/wraith.dir/link.d"
   )

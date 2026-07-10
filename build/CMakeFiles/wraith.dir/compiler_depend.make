@@ -5,8 +5,7 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
   /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/KHR/khrplatform.h \
   /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/glad/glad.h \
   /home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/include/GLFW/glfw3.h \
-  /usr/include/GL/gl.h \
-  /usr/include/GL/glext.h \
+  /home/arden/Projects/Wraith-Graphics-Engine/src/Window.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -226,6 +225,46 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h
 
+wraith: /usr/lib/Scrt1.o \
+  /usr/lib/crti.o \
+  /usr/lib/crtn.o \
+  /usr/lib/libatomic.so \
+  /usr/lib/libatomic_asneeded.so \
+  /usr/lib/libc.so \
+  /usr/lib/libdl.a \
+  /usr/lib/libgcc_s.so \
+  /usr/lib/libgcc_s.so.1 \
+  /usr/lib/libm.so \
+  /usr/lib/libstdc++.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libc.so.6 \
+  /usr/lib/libc_nonshared.a \
+  /usr/lib/libm.so.6 \
+  /usr/lib/libmvec.so.1 \
+  /usr/lib/librt.a \
+  CMakeFiles/wraith.dir/src/main.cpp.o \
+  lib/glad/libglad.a \
+  lib/glfw-3.4/src/libglfw3.a
+
+
+lib/glad/libglad.a:
+
+CMakeFiles/wraith.dir/src/main.cpp.o:
+
+/usr/lib/libmvec.so.1:
+
+/usr/lib/libm.so.6:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
+
+/usr/lib/libgcc_s.so.1:
+
+/usr/lib/crtn.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h:
 
@@ -249,21 +288,29 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/linux/types.h:
 
+/usr/include/linux/stddef.h:
+
 /usr/include/linux/sched/types.h:
 
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/features-time64.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
+
 /usr/include/errno.h:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/lib/libc.so.6:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
 /usr/include/time.h:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/lib/libc.so:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
@@ -277,11 +324,15 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/c++/16.1.1/typeinfo:
 
+/usr/include/c++/16.1.1/tuple:
+
 /usr/include/c++/16.1.1/system_error:
 
 /usr/include/c++/16.1.1/string_view:
 
 /usr/include/c++/16.1.1/streambuf:
+
+/usr/lib/libgcc_s.so:
 
 /usr/include/c++/16.1.1/numbers:
 
@@ -333,6 +384,8 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/c++/16.1.1/bits/stl_pair.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o:
+
 /usr/include/c++/16.1.1/cstdlib:
 
 /usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h:
@@ -344,6 +397,8 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 /usr/include/c++/16.1.1/bits/version.h:
 
 /usr/include/c++/16.1.1/bits/stl_construct.h:
+
+lib/glfw-3.4/src/libglfw3.a:
 
 /usr/include/sys/select.h:
 
@@ -381,6 +436,8 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/types/time_t.h:
 
+/usr/lib/libc_nonshared.a:
+
 /usr/include/c++/16.1.1/bits/char_traits.h:
 
 /usr/include/bits/types/struct_timeval.h:
@@ -415,20 +472,6 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/c++/16.1.1/bits/exception_defines.h:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/16.1.1/string:
-
-/usr/include/c++/16.1.1/bits/uses_allocator_args.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/16.1.1/bits/ranges_base.h:
-
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
@@ -438,6 +481,12 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/16.1.1/bits/exception_ptr.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/16.1.1/bits/ranges_base.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -455,14 +504,6 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/c++/16.1.1/bits/functional_hash.h:
 
-/usr/include/linux/stddef.h:
-
-/usr/include/GL/gl.h:
-
-/usr/include/c++/16.1.1/ext/numeric_traits.h:
-
-/usr/include/bits/long-double.h:
-
 /usr/include/asm/types.h:
 
 /usr/include/bits/types/struct_FILE.h:
@@ -475,7 +516,17 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/include/GLFW/glfw3.h:
 
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/16.1.1/string:
+
+/usr/include/c++/16.1.1/bits/uses_allocator_args.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
 /usr/include/c++/16.1.1/bits/alloc_traits.h:
+
+/usr/lib/libm.so:
 
 /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/glad/glad.h:
 
@@ -483,19 +534,9 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/floatn-common.h:
 
-/home/arden/Projects/Wraith-Graphics-Engine/src/main.cpp:
-
-/usr/include/bits/libc-header-start.h:
-
 /usr/include/c++/16.1.1/bits/utility.h:
 
 /usr/include/bits/types.h:
-
-/usr/include/c++/16.1.1/tuple:
-
-/usr/include/GL/glext.h:
-
-/usr/include/c++/16.1.1/bits/locale_facets.tcc:
 
 /usr/include/asm/posix_types.h:
 
@@ -507,7 +548,13 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/time.h:
 
+/usr/lib/libatomic_asneeded.so:
+
 /usr/include/c++/16.1.1/bits/iterator_concepts.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/16.1.1/bits/ostream_insert.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -519,9 +566,19 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/cpu-set.h:
 
+/home/arden/Projects/Wraith-Graphics-Engine/src/Window.h:
+
+/usr/lib/crti.o:
+
 /usr/include/bits/typesizes.h:
 
 /usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/16.1.1/ext/numeric_traits.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/lib/libatomic.so:
 
 /usr/include/features.h:
 
@@ -543,9 +600,9 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/errno.h:
 
-/usr/include/bits/types/locale_t.h:
+/home/arden/Projects/Wraith-Graphics-Engine/src/main.cpp:
 
-/usr/include/c++/16.1.1/bits/ostream_insert.h:
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
@@ -553,19 +610,19 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 
 /usr/include/bits/types/sigset_t.h:
 
+/usr/lib/librt.a:
+
 /usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/c++/16.1.1/bits/requires_hosted.h:
-
-/usr/include/c++/16.1.1/bits/ranges_util.h:
-
-/usr/include/bits/types/struct_timespec.h:
+/usr/lib/libdl.a:
 
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/bits/wchar.h:
+
+/usr/lib/Scrt1.o:
 
 /usr/include/c++/16.1.1/bits/stl_iterator_base_types.h:
 
@@ -594,6 +651,12 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 /usr/include/c++/16.1.1/bits/charconv.h:
 
 /usr/include/bits/wordsize.h:
+
+/usr/include/c++/16.1.1/bits/requires_hosted.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/16.1.1/bits/ranges_util.h:
 
 /usr/include/c++/16.1.1/backward/binders.h:
 
@@ -642,6 +705,10 @@ CMakeFiles/wraith.dir/src/main.cpp.o: /home/arden/Projects/Wraith-Graphics-Engin
 /usr/include/c++/16.1.1/bits/locale_classes.tcc:
 
 /usr/include/c++/16.1.1/bits/locale_facets.h:
+
+/usr/lib/libstdc++.so:
+
+/usr/include/c++/16.1.1/bits/locale_facets.tcc:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 

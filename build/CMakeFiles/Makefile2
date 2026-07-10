@@ -175,12 +175,12 @@ CMakeFiles/wraith.dir/all: lib/glfw-3.4/src/CMakeFiles/glfw.dir/all
 CMakeFiles/wraith.dir/all: lib/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles --progress-num=49,50 "Built target wraith"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles --progress-num=49,50,51,52 "Built target wraith"
 .PHONY : CMakeFiles/wraith.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wraith.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/wraith.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/wraith.dir/rule
@@ -192,7 +192,7 @@ wraith: CMakeFiles/wraith.dir/rule
 # codegen rule for target.
 CMakeFiles/wraith.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles --progress-num=49,50 "Finished codegen for target wraith"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arden/Projects/Wraith-Graphics-Engine/build/CMakeFiles --progress-num=49,50,51,52 "Finished codegen for target wraith"
 .PHONY : CMakeFiles/wraith.dir/codegen
 
 # clean rule for target.

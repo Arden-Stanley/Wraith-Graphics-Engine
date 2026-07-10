@@ -162,4 +162,5 @@ CMakeFiles/wraith.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
  /usr/include/c++/16.1.1/bits/ostream_print.h \
  /usr/include/c++/16.1.1/bits/ostream.tcc /usr/include/c++/16.1.1/istream \
- /usr/include/c++/16.1.1/bits/istream.tcc
+ /usr/include/c++/16.1.1/bits/istream.tcc \
+ /home/arden/Projects/Wraith-Graphics-Engine/src/Application.h
