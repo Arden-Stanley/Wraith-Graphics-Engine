@@ -20,8 +20,8 @@ public:
   bool IsClosing() const;
 
 private:
-  WindowConfig m_config;
-  GLFWwindow *m_handle;
+  WindowConfig config_;
+  GLFWwindow *handle_;
 };
 
 } // namespace Wraith

@@ -1,16 +1,16 @@
 #include "Window.h"
 
 namespace Wraith {
-Window::Window(WindowConfig config) : m_config(config), m_handle(nullptr) {
+Window::Window(WindowConfig config) : config_(config), handle_(nullptr) {
 
   if (!glfwInit()) {
     std::cout << "Error: Could Not Initialize GLFW..." << std::endl;
   };
 
-  m_handle = glfwCreateWindow(m_config.windowWidth, m_config.windowHeight,
-                              m_config.title.c_str(), NULL, NULL);
-  glfwMakeContextCurrent(m_handle);
-  if (!m_handle) {
+  handle_ = glfwCreateWindow(config_.windowWidth, config_.windowHeight,
+                             config_.title.c_str(), NULL, NULL);
+  glfwMakeContextCurrent(handle_);
+  if (!handle_) {
     std::cout << "Error: Could Not Create Window..." << std::endl;
   }
 
@@ -22,9 +22,9 @@ Window::Window(WindowConfig config) : m_config(config), m_handle(nullptr) {
 void Window::Update() const {
   glClear(GL_COLOR_BUFFER_BIT);
   glfwPollEvents();
-  glfwSwapBuffers(m_handle);
+  glfwSwapBuffers(handle_);
 }
 
-bool Window::IsClosing() const { return glfwWindowShouldClose(m_handle); }
+bool Window::IsClosing() const { return glfwWindowShouldClose(handle_); }
 
 } // namespace Wraith

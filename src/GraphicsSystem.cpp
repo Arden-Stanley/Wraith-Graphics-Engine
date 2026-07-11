@@ -1,14 +1,12 @@
 #include "GraphicsSystem.h"
 
 namespace Wraith {
-GraphicsSystem::GraphicsSystem() : m_window(nullptr) {
-  m_window = std::make_unique<Window>(WindowConfig(
+GraphicsSystem::GraphicsSystem() : window_(nullptr) {
+  window_ = std::make_unique<Window>(WindowConfig(
       {.title = "Test", .windowWidth = 1000, .windowHeight = 800}));
 }
 
-void GraphicsSystem::Start() const {
-  while (!(m_window->IsClosing())) {
-    m_window->Update();
-  }
-}
+void GraphicsSystem::Update() const { window_->Update(); }
+
+const Window &GraphicsSystem::GetWindow() const { return *window_; }
 } // namespace Wraith

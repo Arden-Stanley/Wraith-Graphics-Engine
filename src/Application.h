@@ -11,6 +11,6 @@ public:
   void Run() const;
 
 private:
-  std::unique_ptr<GraphicsSystem> m_graphicsSystem;
+  std::unique_ptr<GraphicsSystem> graphicsSystem_;
 };
 } // namespace Wraith

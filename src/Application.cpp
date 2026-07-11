@@ -1,10 +1,14 @@
 #include "Application.h"
 
 namespace Wraith {
-Application::Application() : m_graphicsSystem(nullptr) {
-  m_graphicsSystem = std::make_unique<GraphicsSystem>();
+Application::Application() : graphicsSystem_(nullptr) {
+  graphicsSystem_ = std::make_unique<GraphicsSystem>();
 }
 
-void Application::Run() const { m_graphicsSystem->Start(); }
+void Application::Run() const {
+  while (!(graphicsSystem_->GetWindow().IsClosing())) {
+    graphicsSystem_->Update();
+  }
+}
 
 } // namespace Wraith
