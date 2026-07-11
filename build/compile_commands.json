@@ -18,6 +18,12 @@
   "output": "CMakeFiles/wraith.dir/src/Window.cpp.o"
 },
 {
+  "directory": "/home/arden/Projects/Wraith-Graphics-Engine/build",
+  "command": "/usr/bin/c++  -I/home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/include -I/home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include  -o CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o -c /home/arden/Projects/Wraith-Graphics-Engine/src/GraphicsSystem.cpp",
+  "file": "/home/arden/Projects/Wraith-Graphics-Engine/src/GraphicsSystem.cpp",
+  "output": "CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o"
+},
+{
   "directory": "/home/arden/Projects/Wraith-Graphics-Engine/build/lib/glfw-3.4/src",
   "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/include -I/home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/src -I/home/arden/Projects/Wraith-Graphics-Engine/build/lib/glfw-3.4/src -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/src/context.c",
   "file": "/home/arden/Projects/Wraith-Graphics-Engine/lib/glfw-3.4/src/context.c",

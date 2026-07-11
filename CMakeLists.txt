@@ -3,7 +3,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project(wraith)
 
-add_executable(wraith src/main.cpp src/Application.cpp src/Window.cpp)
+add_executable(wraith src/main.cpp src/Application.cpp src/Window.cpp src/GraphicsSystem.cpp)
 
 add_subdirectory(lib/glfw-3.4)
 add_subdirectory(lib/glad)

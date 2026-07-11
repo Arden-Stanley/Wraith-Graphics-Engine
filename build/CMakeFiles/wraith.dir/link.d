@@ -5,6 +5,7 @@ wraith: \
   CMakeFiles/wraith.dir/src/main.cpp.o \
   CMakeFiles/wraith.dir/src/Application.cpp.o \
   CMakeFiles/wraith.dir/src/Window.cpp.o \
+  CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o \
   lib/glfw-3.4/src/libglfw3.a \
   lib/glad/libglad.a \
   /usr/lib/librt.a \
@@ -52,6 +53,8 @@ CMakeFiles/wraith.dir/src/main.cpp.o:
 CMakeFiles/wraith.dir/src/Application.cpp.o:
 
 CMakeFiles/wraith.dir/src/Window.cpp.o:
+
+CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o:
 
 lib/glfw-3.4/src/libglfw3.a:
 

@@ -250,6 +250,30 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
+src/GraphicsSystem.o: src/GraphicsSystem.cpp.o
+.PHONY : src/GraphicsSystem.o
+
+# target to build an object file
+src/GraphicsSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o
+.PHONY : src/GraphicsSystem.cpp.o
+
+src/GraphicsSystem.i: src/GraphicsSystem.cpp.i
+.PHONY : src/GraphicsSystem.i
+
+# target to preprocess a source file
+src/GraphicsSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.i
+.PHONY : src/GraphicsSystem.cpp.i
+
+src/GraphicsSystem.s: src/GraphicsSystem.cpp.s
+.PHONY : src/GraphicsSystem.s
+
+# target to generate assembly for a file
+src/GraphicsSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wraith.dir/build.make CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.s
+.PHONY : src/GraphicsSystem.cpp.s
+
 src/Window.o: src/Window.cpp.o
 .PHONY : src/Window.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
+	@echo "... src/GraphicsSystem.o"
+	@echo "... src/GraphicsSystem.i"
+	@echo "... src/GraphicsSystem.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"

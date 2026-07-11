@@ -1,7 +1,6 @@
-CMakeFiles/wraith.dir/src/main.cpp.o: \
- /home/arden/Projects/Wraith-Graphics-Engine/src/main.cpp \
+CMakeFiles/wraith.dir/src/GraphicsSystem.cpp.o: \
+ /home/arden/Projects/Wraith-Graphics-Engine/src/GraphicsSystem.cpp \
  /usr/include/stdc-predef.h \
- /home/arden/Projects/Wraith-Graphics-Engine/src/Application.h \
  /home/arden/Projects/Wraith-Graphics-Engine/src/GraphicsSystem.h \
  /home/arden/Projects/Wraith-Graphics-Engine/src/Window.h \
  /home/arden/Projects/Wraith-Graphics-Engine/lib/glad/include/glad/glad.h \

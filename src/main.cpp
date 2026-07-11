@@ -6,5 +6,6 @@ int main() {
   Wraith::Application app;
   std::cout << "Engine Initialized..." << std::endl;
   app.Run();
+  std::cout << "Engine Closing..." << std::endl;
   return 0;
 }
