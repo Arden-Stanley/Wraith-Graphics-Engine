@@ -1,8 +1,17 @@
 #include "Shader.h"
 
 namespace Wraith {
-Shader::Shader(const std::string &fileName) {}
+	ShaderProgram::ShaderProgram() : id_(0) {}
 
-void Shader::Use() const {}
+	void ShaderProgram::AttachShader(Shader shader) const {}
 
+	void ShaderProgram::Compile();
+	
+	void SetActive() const {};
+
+	VertexShader::VertexShader(const std::string& fileName) : id_(0) {}
+
+	unsigned int GetCompiledShader() const {
+
+	}
 } // namespace Wraith

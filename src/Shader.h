@@ -8,6 +8,8 @@ namespace Wraith {
 class ShaderProgram {
 public:
   ShaderProgram();
+  void AttachShader(Shader shader) const;
+  void Compile();
   void SetActive() const;
 
 private:
